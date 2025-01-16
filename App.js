@@ -19,6 +19,13 @@ const Header = () => {
         </div>
     )
 }
+const Footer2 = () => {
+    return(
+        <div>
+            
+        </div>
+    )
+}
 const AppLayout = () => {
     return (
         <div className="app">
