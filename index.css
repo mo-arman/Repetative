@@ -1,3 +1,50 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.logo-container{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+}
+.nav-items,ul,li{
+    display: flex;
+    margin: 8px;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.restaurant-container{
+   height: 290px;
+   width: 210px;
+   /* border: 2px solid black; */
+   margin: 8px;
+   border-radius: 5px;
+   background-color:#E5E4E2 ;
+}
+.restaurant-container:hover{
+    border: 1px solid black;
+}
+.card-img{
+    padding: 6px;
+    width: 210px;
+    height: 170px;
+    border-radius: 15px;
+}
+.tt{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    position: relative;
+    left: 52px;
+    margin-right: 38px;
+
+}
