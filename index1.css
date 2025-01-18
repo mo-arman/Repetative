@@ -1,0 +1,43 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #9df9ef;
+}
+.logo-container{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+}
+.nav-items,ul,li{
+    display: flex;
+    margin: 8px;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.restaurant-card{
+    display: inline-flex;
+    margin: 17px;
+    /* height: 330px; */
+    width: 210px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color:#E5E4E2;
+}
+.restaurant-card:hover{
+    border: 1px solid black;
+}
+.restaurant-img{
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
