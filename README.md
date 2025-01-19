@@ -22,3 +22,6 @@ Today I was Created React App Beacuse Lots of days I was not practicing for Web 
  - HTTPs
  - Tree Shaking
  - Different dev and prod bundles
+
+# Add new features 
+ - Props
