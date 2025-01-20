@@ -22,7 +22,9 @@ const Header = () => {
     </div>
   );
 };
-
+const useOnlineStatus = () => {
+  
+}
 // RestaurantList is JSON Data for displaying cards
 const restaurantList = [
   {
